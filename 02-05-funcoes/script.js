@@ -1,6 +1,7 @@
 // Funções
-function greet (name) {
+function greet (name = "Mergulhador") {
     console.log('Bom dia, ' + name + '!')
 }
 
+greet()
 greet('Paulo')
